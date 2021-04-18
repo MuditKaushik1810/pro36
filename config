@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "pro34"]
+	url = https://github.com/MuditKaushik1810/pro34.git
+	fetch = +refs/heads/*:refs/remotes/pro34/*
+[branch "master"]
+	remote = pro34
+	merge = refs/heads/master
